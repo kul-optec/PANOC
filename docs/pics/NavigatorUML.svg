@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="42cm" height="60cm" viewBox="-133 370 829 1194" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="-131.159" y="470.766" width="826.858" height="1092.68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-131.159" y="470.766" width="826.858" height="1092.68"/>
+    <rect style="fill: #ffffff" x="-131.159" y="450.766" width="150.3" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-131.159" y="450.766" width="150.3" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-129.159" y="464.766">PANOCNavigator-v0.3</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-48.627" y="948.53" width="248.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-48.627" y="948.53" width="248.7" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="75.723" y="967.53">ObstacleCache</text>
+    <rect style="fill: #ffffff" x="-48.627" y="976.53" width="248.7" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-48.627" y="976.53" width="248.7" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-45.627" y="990.53">-obstacles: cell&lt;Obstacle&gt;</text>
+    <rect style="fill: #ffffff" x="-48.627" y="996.53" width="248.7" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-48.627" y="996.53" width="248.7" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-45.627" y="1010.53">+getNumberObstacles(): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-45.627" y="1026.53">+addObstacle(obstacle:Obstacle)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-45.627" y="1042.53">+removeObstacle(id:int)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-45.627" y="1058.53">+plot()</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="331.18" y="488.54" width="310.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="331.18" y="488.54" width="310.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="486.33" y="507.54">Navigator</text>
+    <rect style="fill: #ffffff" x="331.18" y="516.54" width="310.3" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="331.18" y="516.54" width="310.3" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="334.18" y="530.54">-system: KinematicSystem</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="334.18" y="546.54">-controllerParams: struct</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="334.18" y="562.54">-constraints: Constraints</text>
+    <rect style="fill: #ffffff" x="331.18" y="568.54" width="310.3" height="228"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="331.18" y="568.54" width="310.3" height="228"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="334.18" y="582.54">#Navigator(system:KinematicModel,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="334.18" y="598.54">           controllerParams:struct,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="334.18" y="614.54">           constraints:Constraints)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="334.18" y="630.54">#getSystem(): KinematicModel</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="334.18" y="646.54">#getControllerParams(): struct</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="334.18" y="662.54">#getConstraints(): Constraints</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="334.18" y="678.54">#dxdq(in x:sym,in u:sym,out dx:sym,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="334.18" y="694.54">      out dq:sym,x_ref:double[])</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="334.18" y="710.54">#rk4_integrator(x:sym,inout ell:sym,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="334.18" y="726.54">                u:sym,x_ref:double[])</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="334.18" y="742.54">+codegen(ops:struct)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="334.18" y="758.54">#obstacleAvoidanceCost(ell:sym,x:sym)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="334.18" y="774.54">#euler_integrator(x:sym,inout ell:sym,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="334.18" y="790.54">                  u:sym,x_ref:double[])</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="288.03" y="924.514" width="395" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="288.03" y="924.514" width="395" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="485.53" y="943.514">StaticWorldNavigator</text>
+    <rect style="fill: #ffffff" x="288.03" y="952.514" width="395" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="288.03" y="952.514" width="395" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="291.03" y="966.514">-obstacleCache: ObstacleCache</text>
+    <rect style="fill: #ffffff" x="288.03" y="972.514" width="395" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="288.03" y="972.514" width="395" height="100"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="291.03" y="986.514">+StaticWorldNavigator(system:KinematicModel,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="291.03" y="1002.51">                      controllerParams:struct,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="291.03" y="1018.51">                      constraints:Constraints,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="291.03" y="1034.51">                      obstacleCache:ObstacleCache)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="291.03" y="1050.51">+codegen(ops:struct)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="291.03" y="1066.51">#obstacleAvoidanceCost(ell:sym,x:sym)</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="486.33,815.786 486.33,868.527 485.53,868.527 485.53,923.505 "/>
+    <polygon style="fill: #ffffff" points="494.33,815.786 486.33,799.786 478.33,815.786 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="494.33,815.786 486.33,799.786 478.33,815.786 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="288.03,962.514 248.051,962.514 248.051,962.53 206.778,962.53 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="219.426,957.53 203.426,962.53 219.426,967.53 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="331.18,558.54 242.768,558.54 242.768,678.916 153.06,678.916 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="165.708,673.916 149.708,678.916 165.708,683.916 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="486.33,815.786 486.33,828.216 425.858,828.216 425.858,842.882 "/>
+    <polygon style="fill: #ffffff" points="494.33,815.786 486.33,799.786 478.33,815.786 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="494.33,815.786 486.33,799.786 478.33,815.786 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-17.6449" y="664.916" width="164" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-17.6449" y="664.916" width="164" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="64.3551" y="683.916">Constraints</text>
+    <rect style="fill: #ffffff" x="-17.6449" y="692.916" width="164" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-17.6449" y="692.916" width="164" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-14.6449" y="706.916">-n: int</text>
+    <rect style="fill: #ffffff" x="-17.6449" y="712.916" width="164" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-17.6449" y="712.916" width="164" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-14.6449" y="726.916">#Constraints(n:int)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="-14.6449" y="742.916">+project(v:double[])</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-14.6449" y="758.916">+getDimension(): int</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-93.4692" y="807.278" width="318" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-93.4692" y="807.278" width="318" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="65.5308" y="826.278">BoxConstraints</text>
+    <rect style="fill: #ffffff" x="-93.4692" y="835.278" width="318" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-93.4692" y="835.278" width="318" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-90.4692" y="849.278">-lower: double[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-90.4692" y="865.278">-upper: double[]</text>
+    <rect style="fill: #ffffff" x="-93.4692" y="871.278" width="318" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-93.4692" y="871.278" width="318" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-90.4692" y="885.278">+project(v:double[])</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-90.4692" y="901.278">+BoxConstraints(lb:double[],ub:double[])</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="64.3551,784.158 64.3551,794.097 65.5308,794.097 65.5308,806.272 "/>
+    <polygon style="fill: #ffffff" points="72.3551,784.158 64.3551,768.158 56.3551,784.158 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="72.3551,784.158 64.3551,768.158 56.3551,784.158 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-57.908" y="490.432" width="204.65" height="42"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-57.908" y="490.432" width="204.65" height="42"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="44.417" y="509.432">ControllerParameters</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="44.417" y="524.932">structure</text>
+    <rect style="fill: #ffffff" x="-57.908" y="532.432" width="204.65" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-57.908" y="532.432" width="204.65" height="100"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-54.908" y="546.432">+Q: double[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-54.908" y="562.432">+R: double[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-54.908" y="578.432">+Qf: double[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-54.908" y="594.432">+Thor: double</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-54.908" y="610.432">+Tcontr: double</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-54.908" y="626.432">+idx_x: int[]</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="331.18,542.54 242.961,542.54 242.961,511.432 153.447,511.432 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="166.095,506.432 150.095,511.432 166.095,516.432 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="218.788" y="389.93" width="127.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="218.788" y="389.93" width="127.5" height="28"/>
+    <rect style="fill: #ffffff" x="218.788" y="371.93" width="30" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="218.788" y="371.93" width="30" height="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="224.788" y="407.83">
+      <tspan x="224.788" y="407.83">PANOCKinematics</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="282.27,470.766 282.27,448.348 282.538,448.348 282.538,424.635 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="287.538,437.283 282.538,421.283 277.538,437.283 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="311.108" y="843.89" width="229.5" height="42"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="311.108" y="843.89" width="229.5" height="42"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="425.858" y="862.89">DynamicWorldNavigator</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="425.858" y="878.39">Work in progress</text>
+    <rect style="fill: #ffffff" x="311.108" y="885.89" width="229.5" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="311.108" y="885.89" width="229.5" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="314.108" y="899.89">+codegen(ops:struct)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-46.1666" y="1088.34" width="279.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-46.1666" y="1088.34" width="279.5" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="93.5834" y="1107.34">Obstacle</text>
+    <rect style="fill: #ffffff" x="-46.1666" y="1116.34" width="279.5" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-46.1666" y="1116.34" width="279.5" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-43.1666" y="1130.34">+enlargement: double</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-43.1666" y="1146.34">+weight: double</text>
+    <rect style="fill: #ffffff" x="-46.1666" y="1152.34" width="279.5" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-46.1666" y="1152.34" width="279.5" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="-43.1666" y="1166.34">+obstaclePenalty(x:double[])</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="-43.1666" y="1182.34">+plot()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-43.1666" y="1198.34">+getEnlargement(): double</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-43.1666" y="1214.34">+setEnlargement(enlargement:double)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-43.1666" y="1230.34">+getWeight(): double</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="-48.627,986.53 -88.6006,986.53 -88.6006,1126.34 -52.8718,1126.34 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-65.5192,1131.34 -49.5192,1126.34 -65.5192,1121.34 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="255.692,1104.21 278.8,1104.21 278.8,1204.27 304.144,1204.27 "/>
+    <polygon style="fill: #ffffff" points="255.692,1096.21 239.692,1104.21 255.692,1112.21 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="255.692,1096.21 239.692,1104.21 255.692,1112.21 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-59.432" y="1415.8" width="418.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-59.432" y="1415.8" width="418.1" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="149.618" y="1434.8">ObstaclePolyhedral</text>
+    <rect style="fill: #ffffff" x="-59.432" y="1443.8" width="418.1" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-59.432" y="1443.8" width="418.1" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-56.432" y="1457.8">+A: double[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-56.432" y="1473.8">+b: double[]</text>
+    <rect style="fill: #ffffff" x="-59.432" y="1479.8" width="418.1" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-59.432" y="1479.8" width="418.1" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-56.432" y="1493.8">+ObstaclePolyhedral(A:double[],b:double[],</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-56.432" y="1509.8">                    weight:double,enlargement:double)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-56.432" y="1525.8">+obstaclePenalty(x:double[])</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-56.432" y="1541.8">+plot()</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="304.144" y="1190.27" width="379.6" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="304.144" y="1190.27" width="379.6" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="493.944" y="1209.27">ObstacleRectangle</text>
+    <rect style="fill: #ffffff" x="304.144" y="1218.27" width="379.6" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="304.144" y="1218.27" width="379.6" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="307.144" y="1232.27">+center: double[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="307.144" y="1248.27">+width: double</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="307.144" y="1264.27">+height: double</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="307.144" y="1280.27">+weight: double</text>
+    <rect style="fill: #ffffff" x="304.144" y="1286.27" width="379.6" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="304.144" y="1286.27" width="379.6" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="307.144" y="1300.27">+ObstacleRectangle(center:double[],width:double,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="307.144" y="1316.27">                   height:double,weight:double,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="307.144" y="1332.27">                   enlargement:double)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="307.144" y="1348.27">+obstaclePenalty(x:double[])</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="307.144" y="1364.27">+plot()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-65.3769,1162.34 -120.019,1162.34 -120.019,1429.8 -59.432,1429.8 "/>
+    <polygon style="fill: #ffffff" points="-65.3769,1170.34 -49.3769,1162.34 -65.3769,1154.34 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-65.3769,1170.34 -49.3769,1162.34 -65.3769,1154.34 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-99.3075" y="1266.92" width="387.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-99.3075" y="1266.92" width="387.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="94.3425" y="1285.92">ObstacleCircle</text>
+    <rect style="fill: #ffffff" x="-99.3075" y="1294.92" width="387.3" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-99.3075" y="1294.92" width="387.3" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-96.3075" y="1308.92">+center: double[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-96.3075" y="1324.92">+radius: double</text>
+    <rect style="fill: #ffffff" x="-99.3075" y="1330.92" width="387.3" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-99.3075" y="1330.92" width="387.3" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-96.3075" y="1344.92">+ObstacleCircle(center:double,radius:double,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-96.3075" y="1360.92">                weight:double,enlargement:double)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-96.3075" y="1376.92">+obstaclePenalty(x:double)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-96.3075" y="1392.92">+plot()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-65.4113,1162.34 -120.307,1162.34 -120.307,1280.92 -99.3075,1280.92 "/>
+    <polygon style="fill: #ffffff" points="-65.4113,1170.34 -49.4113,1162.34 -65.4113,1154.34 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-65.4113,1170.34 -49.4113,1162.34 -65.4113,1154.34 "/>
+  </g>
+</svg>

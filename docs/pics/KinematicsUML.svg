@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="33cm" height="26cm" viewBox="91 6 653 501" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="92" y="28" width="651" height="479"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="92" y="28" width="651" height="479"/>
+    <rect style="fill: #ffffff" x="92" y="8" width="158" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="92" y="8" width="158" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="94" y="22">PANOCKinematics-v0.2</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="391.624" y="85.8604" width="333.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="391.624" y="85.8604" width="333.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="558.324" y="104.86">KinematicModel</text>
+    <rect style="fill: #ffffff" x="391.624" y="113.86" width="333.4" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="391.624" y="113.86" width="333.4" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="394.624" y="127.86">-name: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="394.624" y="143.86">-systemParams: struct</text>
+    <rect style="fill: #ffffff" x="391.624" y="149.86" width="333.4" height="132"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="391.624" y="149.86" width="333.4" height="132"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="394.624" y="163.86">#KinematicModel(systemParameters:struct,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="394.624" y="179.86">                name:string)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="394.624" y="195.86">+dynamics(x:double[],u:double[]): double[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="394.624" y="211.86">+getNumStates(): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="394.624" y="227.86">+getNumInputs(): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="394.624" y="243.86">+getName(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="394.624" y="259.86">+getSamplingTime(): double</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="394.624" y="275.86">+isContinuous(): bool</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="162.284" y="422.01" width="333.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="162.284" y="422.01" width="333.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="328.984" y="441.01">Trailer</text>
+    <rect style="fill: #ffffff" x="162.284" y="450.01" width="333.4" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="162.284" y="450.01" width="333.4" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="165.284" y="464.01">+Trailer(ts:double,L:double)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="165.284" y="480.01">+dynamics(x:double[],u:double[]): double[]</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="558.324,301.103 558.324,436.01 495.684,436.01 "/>
+    <polygon style="fill: #ffffff" points="566.324,301.103 558.324,285.103 550.324,301.103 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="566.324,301.103 558.324,285.103 550.324,301.103 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="162.392" y="344.512" width="333.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="162.392" y="344.512" width="333.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="329.092" y="363.512">Quadcopter</text>
+    <rect style="fill: #ffffff" x="162.392" y="372.512" width="333.4" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="162.392" y="372.512" width="333.4" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="165.392" y="386.512">+Quadcopter()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="165.392" y="402.512">+dynamics(x:double[],u:double[]): double[]</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="558.324,300.096 558.324,358.512 495.792,358.512 "/>
+    <polygon style="fill: #ffffff" points="566.324,300.096 558.324,284.096 550.324,300.096 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="566.324,300.096 558.324,284.096 550.324,300.096 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="99,240.276 328.3,240.276 340.3,252.276 340.3,306.276 99,306.276 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="99,240.276 328.3,240.276 340.3,252.276 340.3,306.276 99,306.276 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" points="328.3,240.276 328.3,252.276 340.3,252.276 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="106" y="265.176">
+      <tspan x="106" y="265.176">The system dynamics is </tspan>
+      <tspan x="106" y="281.176">defined by a class that is</tspan>
+      <tspan x="106" y="297.176">derived from KinematicsSystem</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="99.9492" y="60.9" width="180.8" height="42"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="99.9492" y="60.9" width="180.8" height="42"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="190.349" y="79.9">SystemParameters</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="190.349" y="95.4">structure</text>
+    <rect style="fill: #ffffff" x="99.9492" y="102.9" width="180.8" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="99.9492" y="102.9" width="180.8" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="102.949" y="116.9">+continuous: bool</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="102.949" y="132.9">+nStates: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="102.949" y="148.9">+nInputs: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="102.949" y="164.9">+samplingTime: double</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="391.624,139.86 340.187,139.86 340.187,81.9 287.454,81.9 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="300.102,76.9 284.102,81.9 300.102,86.9 "/>
+  </g>
+</svg>
