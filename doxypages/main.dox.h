@@ -71,7 +71,7 @@
  * </div>
  * \endhtmlonly
  * 
- * See more obstacle avoidance examples \link obstacle_avoidance_examples here\endlink.
+ * See more obstacle avoidance examples \link obstacle_avoidance here\endlink.
  * 
  * 
  * 

@@ -71,7 +71,7 @@
  * </div>
  * \endhtmlonly
  * 
- * 
+ * See more obstacle avoidance examples \link obstacle_avoidance_examples here\endlink.
  * 
  * 
  * 
@@ -83,10 +83,10 @@
  * Please, cite PANOC as follows:
  * 
  * - L. Stella, A. Themelis, P. Sopasakis and P. Patrinos,
- * <em><a href="https://arxiv.org/abs/1709.06487">A Simple and Efficient Algorithm for Nonlinear Model Predictive Control</a></em>,
+ * <em><a href="https://arxiv.org/abs/1709.06487" >A Simple and Efficient Algorithm for Nonlinear Model Predictive Control</a></em>,
  * IEEE CDC 2017, Melbourne, Australia, Dec 2017.
  * - A. Sathya, P. Sopasakis, A. Themelis, R. Van Parys, G. Pipeleers and P. Patrinos,
- *  <em><a href="#">Embedded nonlinear model predictive control for obstacle avoidance using PANOC</a></em>,
+ *  <em><a href="#" >Embedded nonlinear model predictive control for obstacle avoidance using PANOC</a></em>,
  *  submitted to ECC 2018.
  * 
  * 
