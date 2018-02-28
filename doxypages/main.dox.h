@@ -62,16 +62,16 @@
  * 
  * \htmlonly
  * <div style="width=100%;text-align:center">
- * <div id="main_video_navigation" style="display: inline-block">
- * <video width="600" height="400" controls>
- * <source src="pics/navigation-v0.1-001.mp4" type="video/mp4">
- * Your browser does not support the video tag.
- * </video> 
- * </div>
+ *     <div id="main_video_navigation" style="display: inline-block">
+ *         <video width="600" height="400" controls>
+ *             <source src="pics/navigation-v0.1-001.mp4" type="video/mp4">
+ *             Your browser does not support the video tag.
+ *         </video> 
+ *     </div>
  * </div>
  * \endhtmlonly
  * 
- * See more obstacle avoidance examples \link obstacle_avoidance here\endlink.
+ * See some more obstacle avoidance examples \link obstacle_avoidance here\endlink.
  * 
  * 
  * 
@@ -87,7 +87,7 @@
  * IEEE CDC 2017, Melbourne, Australia, Dec 2017.
  * - A. Sathya, P. Sopasakis, A. Themelis, R. Van Parys, G. Pipeleers and P. Patrinos,
  *  <em><a href="#" >Embedded nonlinear model predictive control for obstacle avoidance using PANOC</a></em>,
- *  submitted to ECC 2018.
+ *  European Control Conference, Limassol, Cyprus, June 2018 (accepted).
  * 
  * 
  * 
